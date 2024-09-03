@@ -42,12 +42,6 @@ export default function Logged() {
           <Avatar src="/images/avatar.png" alt={user.email} /> Profile
         </MenuItem>
         <Divider />
-        {/* <MenuItem>
-          <ListItemIcon>
-            <Settings fontSize="small" />
-          </ListItemIcon>
-          Settings
-        </MenuItem> */}
         <MenuItem onClick={handleLogoutClick}>
           <ListItemIcon>
             <Logout fontSize="small" />
